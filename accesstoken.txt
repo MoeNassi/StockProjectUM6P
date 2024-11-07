@@ -1,0 +1,31 @@
+-----------------------------------------------------------------
+
+loggin POST -> /auth/jwt/create/
+
+{
+    "username": "",
+    "password": ""
+}
+
+response:
+
+{
+    "refresh": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTczMTAxOTQ4MywiaWF0IjoxNzMwOTMzMDgzLCJqdGkiOiJlMDBiYjZhODU0N2Y0MjlhOGY4MDg1NGIxYjRhYTUxYyIsInVzZXJfaWQiOjF9.ljA2GuufHvfiAc67e8M05g-bwMBZbq7fczPLjRg2nUM",
+    "access": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzMwOTkzMDgzLCJpYXQiOjE3MzA5MzMwODMsImp0aSI6IjI0YzkwMTM0YWY4ODQxYjViZDE0ZmRiOTE2YWZlMjNlIiwidXNlcl9pZCI6MX0.-A4BLGGgpdK0t4nZKSekwcB3hCnq9AgtVoyM62zAPvM"
+}
+
+-----------------------------------------------------------------
+
+create user POST -> /auth/users/
+create user POST -> /um6p/users/
+
+-----------------------------------------------------------------
+
+profile POST -> /auth/users/me
+profile POST -> /um6p/users/me
+
+-----------------------------------------------------------------
+
+regenerate token in front POST -> /auth/jwt/refresh
+
+-----------------------------------------------------------------
